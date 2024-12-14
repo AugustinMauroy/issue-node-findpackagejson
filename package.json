@@ -1,0 +1,16 @@
+{
+  "name": "issue-node-findpackagejson",
+  "version": "1.0.0",
+  "author": "AUgustinMauroy",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "node --import=\"./register.js\" test.js"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2"
+  },
+  "dependencies": {
+    "esbuild": "0.24.0"
+  }
+}
